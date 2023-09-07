@@ -2720,8 +2720,151 @@ textarea:focus {
     color: #FFF;
 }
 
-
 /*-- /Section 1 - Service Single --*/
+
+/*-- Section 1 - Politic --*/
+
+.politic_article {
+    max-width: 1010px;
+    margin: 0 auto;
+    padding-bottom: 52px;
+}
+
+.politic_article h1 {
+    padding: 60px 0 54px 0;
+}
+
+.politic_article p {
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFF;
+}
+
+.politics_items {
+    padding: 30px 0 18px 0;
+}
+
+.politic_article p + .politics_items {
+    padding-top: 50px;
+}
+
+.politics_items_title {
+    display: flex;
+    padding: 10px 0 34px 0;
+}
+
+.politics_items_title > div:nth-child(1) {
+    width: 65px;
+    padding-right: 10px;
+}
+
+.politics_items_title > div:nth-child(2) {
+    width: calc(100% - 65px);
+}
+
+.politics_items_title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 112.5%;
+    color: #FFF;
+}
+
+.politic_item {
+    display: flex;
+    padding: 15px 0;
+}
+
+.politic_item > div:nth-child(1) {
+    width: 65px;
+    padding-right: 10px;
+}
+
+.politic_item > div:nth-child(2) {
+    width: calc(100% - 65px);
+}
+
+.politic_item p {
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFF;
+}
+
+.politic_item p a {
+    border-bottom: 1px solid #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFF;
+    -webkit-transition-property: border;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.politic_item p a:link,
+.politic_item p a:visited {
+    border-bottom: 1px solid #fff;
+}
+
+.politic_item p a:active,
+.politic_item p a.active {
+    border-bottom: 1px solid transparent;
+}
+
+.politic_item p a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+.politic_item ul li {
+    position: relative;
+    margin: 10px 0;
+    padding: 0 0 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFF;
+}
+
+.politic_item ul li:last-child {
+    margin-bottom: 0;
+}
+
+.politic_item ul li:before {
+    display: block;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-radius: 50%;
+}
+
+.politics_items + p {
+    padding-top: 38px;
+}
+
+/*-- /Section 1 - Politic --*/
 
 
 /*-------------------------------------------*/
