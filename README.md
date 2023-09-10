@@ -1,4 +1,6 @@
 # http://deniswebsites.github.io/moneyavto/index.html
+# http://deniswebsites.github.io/moneyavto/car_selection.html
+# http://deniswebsites.github.io/moneyavto/china_avto.html
 # http://deniswebsites.github.io/moneyavto/blog.html
 # http://deniswebsites.github.io/moneyavto/blog_page.html
 # http://deniswebsites.github.io/moneyavto/callback.html
