@@ -558,6 +558,155 @@ h2 {
 
 /*-- /Section 1 - Politic --*/
 
+/*-- Section 2 - Car Selection --*/
+
+.sect_2_c_s {
+    padding: 32px 0 42px 0;
+}
+
+.article_two_cols_2_2 {
+    padding: 22px 0 20px 0;
+}
+
+.article_two_cols_2_2 > div:nth-child(1) {
+    width: 480px;
+}
+
+.article_two_cols_2_2 > div:nth-child(2) {
+    width: calc(100% - 480px);
+}
+
+.article_two_cols_2_2 .img_box img {
+    max-width: 78%;
+    max-height: 78%;
+}
+
+.article_two_cols_2_2 p {
+    font-size: 16px;
+}
+
+.items_3_wrapp {
+    padding-top: 11px;
+}
+
+.item_3 p {
+    font-size: 20px;
+}
+
+/*-- /Section 2 - Car Selection --*/
+
+/*-- Section 3 - Car Selection --*/
+
+.steps_2_thumbs_wrapp {
+    margin: 18px 0 11px 0;
+}
+
+.step_2_thumb {
+    width: 50%;
+    padding: 60px 20px 33px 130px;
+}
+
+.step_2_thumb:nth-child(3) .step_2_thumb_number > div p {
+    background: linear-gradient(178.37deg, #212224 0.73%, #3F4047 102.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.step_2_thumb:nth-child(4) .step_2_thumb_number > div p {
+    background: linear-gradient(178.37deg, #2C2E44 0.73%, #5E76A4 102.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.step_2_thumb_content h3 {
+    padding: 9px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.step_2_thumb_content p {
+    padding: 9px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.step_2_thumb_number {
+    left: 22px;
+}
+
+/*-- /Section 3 - Car Selection --*/
+
+/*-- Section 4 - Car Selection --*/
+
+.tree_cols {
+	position: relative;
+	margin: 29px 0 33px 0;
+	padding: 0 0 16px 375px;
+}
+
+.tree_cols > div:nth-child(2) {
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tree_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 0;
+}
+
+.tree_cols > div:nth-child(3) {
+    width: 100%;
+    padding: 0;
+}
+
+.tree_cols > div:nth-child(1) .item_4 {
+    text-align: left;
+}
+
+.tree_cols > div:nth-child(1) .item_4 > div:nth-child(2) {
+	order: 1;
+}
+
+.tree_cols > div:nth-child(1) .item_4 > div:nth-child(1) {
+	order: 2;
+}
+
+.car_img_box {
+    height: 97%;
+}
+
+.item_4 h3 {
+    padding: 0 0 6px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.item_4 p {
+    padding: 4px 0;
+    font-size: 16px;
+}
+
+/*-- /Section 4 - Car Selection --*/
+
+/*-- Section 6 - Car Selection --*/
+
+.sect_6_c_s {
+    padding: 60px 0 54px 0;
+}
+
+.selection_slider_wrapp {
+    padding: 22px 0 120px;
+}
+
+/*-- /Section 6 - Car Selection --*/
+
 /*-- Footer --*/
 
 .footer_templ {
@@ -609,7 +758,6 @@ p.corp {
 
 /*-- /Footer --*/
 
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -628,8 +776,107 @@ p.corp {
 
 /*-- /Section 1 - Main Page --*/
 
+/*-- Section 1 - Car Selection --*/
+
+.sect_1.sect_1_c_s:before {
+    top: 11px;
 }
 
+.promo_two_cols p {
+    font-size: 16px;
+}
+
+.promo_two_cols_2 {
+    padding-bottom: 88px;
+}
+
+.promo_two_cols_2 .blue_pill {
+    margin: 97px 0 20px 0;
+}
+
+.promo_two_cols_2 .promo_img {
+    top: 27px;
+    right: -11px;
+}
+
+.promo_img_2 {
+    width: 618px;
+}
+
+/*-- /Section 1 - Car Selection --*/
+
+/*-- Section 5 - Car Selection --*/
+
+.serices_box_blue {
+    padding: 20px 0 20px 0;
+}
+
+.serices_box {
+    padding: 11px 20px 45px 20px;
+}
+
+.serices_box .h2_wrapp {
+    padding-bottom: 21px;
+}
+
+.services_thumbs {
+	margin: 0 -15px;
+}
+
+.service_thumb {
+    max-width: 316px;
+    width: calc(50% - 30px);
+    margin: 15px 15px;
+}
+
+.service_thumb_title {
+    padding: 20px 30px;
+}
+
+.service_thumb_title h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.service_thumb_content {
+    padding: 10px 30px 32px 30px;
+}
+
+.service_thumb_descript {
+    min-height: 91px;
+    padding: 9px 0 13px 0;
+}
+
+.service_thumb_descript p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.service_thumb_price {
+    min-height: 107px;
+    padding: 10px 0 20px 0;
+}
+
+.service_thumb_price p {
+    font-size: 36px;
+}
+
+.serices_box_blue:before {
+    width: 309px;
+    height: 319px;
+    background-image: url(img/shape_9_resp.svg);
+}
+
+.serices_box_blue:after {
+    width: 384px;
+    height: 458px;
+    background-image: url(img/shape_10_resp.svg);
+    top: 0;
+}
+
+/*-- /Section 5 - Car Selection --*/
+
+}
 
 @media only screen and (max-width: 980px) {
 
@@ -639,6 +886,10 @@ p.corp {
 
 .visible_980 {
     display: block;
+}
+
+h1 {
+	font-weight: 700;
 }
 
 /*-- Header --*/
@@ -892,6 +1143,99 @@ p.corp {
 }
 
 /*-- /Section 11 - Main Page --*/
+
+/*-- Section 1 - Car Selection --*/
+
+.promo_two_cols_2 {
+    padding-bottom: 102px;
+}
+
+.promo_two_cols_2 > div:nth-child(1) {
+    width: 470px;
+}
+
+.promo_two_cols_2 > div:nth-child(2) {
+    width: calc(100% - 470px);
+}
+
+.promo_img_2 {
+    width: 799px;
+}
+
+.promo_two_cols_2 .blue_pill {
+    padding: 10px 25px;
+    min-width: 216px;
+}
+
+.promo_two_cols_2 .promo_img {
+    top: -34px;
+    right: -341px;
+}
+
+/*-- /Section 1 - Car Selection --*/
+
+/*-- Section 2 - Car Selection --*/
+
+.article_two_cols_2_2 {
+    padding: 17px 0 10px 0;
+}
+
+.article_two_cols_2_2 > div:nth-child(1) {
+    width: 364px;
+}
+
+.article_two_cols_2_2 > div:nth-child(2) {
+    width: calc(100% - 364px);
+}
+
+.article_two_cols_2_2 .item_3 {
+    padding: 7px 0;
+}
+
+/*-- /Section 2 - Car Selection --*/
+
+/*-- Section 4 - Car Selection --*/
+
+.tree_cols {
+    padding: 0 0 16px 321px;
+}
+
+.tree_cols > div:nth-child(2) {
+    width: 300px;
+}
+
+.item_4 h3 {
+    padding: 0 0 6px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.car_img_box:before {
+	width: 254px;
+	height: 490px;
+	background-image: url(img/shape_7_resp.svg);
+}
+
+.car_img_box:after {
+    width: 232px;
+    height: 475px;
+    background-image: url(img/shape_8_resp.svg);
+}
+
+.car_img_box img {
+    max-width: 79%;
+    max-height: 79%;
+}
+
+/*-- /Section 4 - Car Selection --*/
+
+/*-- Section 6 - Car Selection --*/
+
+.select_slide_thumb .img_box {
+    height: 201px;
+}
+
+/*-- /Section 6 - Car Selection --*/
 
 /*-- Footer --*/
 
@@ -1289,6 +1633,19 @@ h1 {
 
 /*-- /Section 1 - Service Single --*/
 
+/*-- Section 3 - Car Selection --*/
+
+.step_2_thumb {
+    padding: 60px 20px 26px 130px;
+}
+
+.step_2_thumb_content h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/*-- /Section 3 - Car Selection --*/
+
 }
 
 
@@ -1627,6 +1984,248 @@ h2 {
 }
 
 /*-- /Section 11 - Main Page --*/
+
+/*-- Section 2 - Car Selection --*/
+
+.sect_2_c_s {
+    padding: 32px 0 15px 0;
+}
+
+.article_two_cols_2_2 {
+    padding: 3px 0 10px 0;
+}
+
+.article_two_cols_2_2 > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.article_two_cols_2_2 > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.article_two_cols_2_2 .img_box {
+    height: 225px;
+}
+
+.article_two_cols_2_2 .img_box:before {
+    bottom: -156px;
+}
+
+.article_two_cols_2_2 p {
+    font-size: 14px;
+}
+
+/*-- /Section 2 - Car Selection --*/
+
+/*-- Section 3 - Car Selection --*/
+
+.steps_2_thumbs_wrapp {
+    margin: 0 0 10px 0;
+}
+
+.steps_2_thumbs {
+    padding: 22px 0 12px 0;
+}
+
+.step_2_thumb {
+    width: 100%;
+	padding: 56px 20px 25px 108px;
+}
+
+.step_2_thumb_number {
+    width: 90px;
+    height: 90px;
+}
+
+.step_2_thumb_number > div {
+    width: 55px;
+    height: 55px;
+}
+
+.step_2_thumb_number > div p {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.step_2_thumb_content h3 {
+	padding: 3px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.step_2_thumb_content p {
+    padding: 3px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.step_2_thumb:nth-child(odd) .step_2_thumb_number > div p {
+	background: linear-gradient(178.37deg, #2C2E44 0.73%, #5E76A4 102.16%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.step_2_thumb:nth-child(even) .step_2_thumb_number > div p {
+    background: linear-gradient(178.37deg, #212224 0.73%, #3F4047 102.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+/*-- /Section 3 - Car Selection --*/
+
+/*-- Section 4 - Car Selection --*/
+
+.tree_cols {
+	margin: 12px 0 10px 0;
+    padding: 0 0 16px 0;
+}
+
+.tree_cols > div:nth-child(1) {
+	order: 3;
+	padding-top: 39px;
+}
+
+.tree_cols > div:nth-child(2) {
+    width: 100%;
+    order: 2;
+    position: relative;
+}
+
+.tree_cols > div:nth-child(3) {
+	order: 1;
+	padding-bottom: 20px;
+}
+
+.car_img_box {
+    height: 730px;
+}
+
+.item_4 img {
+	width: 45px;
+}
+
+.item_4 > div:nth-child(1) {
+    width: calc(100% - 60px);
+}
+
+.item_4 > div:nth-child(2) {
+    width: 60px;
+}
+
+.item_4 h3 {
+    padding: 0 0 6px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.item_4 p {
+    padding: 4px 0;
+    font-size: 14px;
+}
+
+.car_img_box:before {
+    width: 200px;
+    height: 366px;
+    background-image: url(img/shape_7_2_resp.svg);
+}
+
+.car_img_box:after {
+    width: 334px;
+    height: 274px;
+    background-image: url(img/shape_8_2_resp.svg);
+}
+
+/*-- /Section 4 - Car Selection --*/
+
+/*-- Section 5 - Car Selection --*/
+
+.serices_box {
+	margin: 0 -20px;
+	padding: 11px 20px 39px 20px;
+}
+
+.serices_box_blue:before {
+    width: 285px;
+    height: 280px;
+    background-image: url(img/shape_9_2_resp.svg);
+}
+
+.serices_box_blue:after {
+    width: 250px;
+    height: 348px;
+    background-image: url(img/shape_10_2_resp.svg);
+}
+
+.services_thumbs {
+    margin: 0 -10px;
+}
+
+.service_thumb {
+    width: calc(50% - 20px);
+    margin: 10px 10px;
+}
+
+.service_thumb_content {
+    padding: 10px 20px 18px 20px;
+}
+
+.service_thumb_title {
+    padding: 10px 20px;
+    min-height: 70px;
+}
+
+.service_thumb_title h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.service_thumb_descript {
+    min-height: 123px;
+}
+
+.service_thumb_descript p {
+    font-size: 14px;
+}
+
+.service_thumb_price {
+    min-height: 78px;
+}
+
+.service_thumb_price p {
+    font-size: 32px;
+}
+
+.service_thumb_price p i {
+	position: relative;
+	top: 2px;
+}
+
+.service_thumb_footer .blue_pill {
+	width: 100%;
+	min-width: 100%;
+	padding: 10px 10px;
+}
+
+/*-- /Section 5 - Car Selection --*/
+
+/*-- Section 6 - Car Selection --*/
+
+.sect_6_c_s {
+    padding: 36px 0 16px 0;
+}
+
+.selection_slider_wrapp {
+    padding: 4px 0 10px;
+}
+
+/*-- /Section 6 - Car Selection --*/
 
 }
 
@@ -1975,6 +2574,48 @@ h1 {
 
 /*-- /Section 1 - Politic --*/
 
+/*-- Section 1 - Car Selection --*/
+
+.sect_1.sect_1_c_s:before {
+    top: 64px;
+}
+
+.promo_two_cols_2 {
+    padding-bottom: 15px;
+}
+
+.promo_two_cols_2 .blue_pill {
+	margin: 73px 0 20px 0;
+    padding: 10px 25px;
+}
+
+.promo_img_2 {
+    width: 510px;
+}
+
+.promo_two_cols_2 .promo_img {
+    margin: -9px 0 0 -94px;
+}
+
+/*-- /Section 1 - Car Selection --*/
+
+/*-- Section 3 - Car Selection --*/
+
+.steps_2_thumbs {
+    padding: 22px 0 2px 0;
+}
+
+/*-- /Section 3 - Car Selection --*/
+
+/*-- Section 4 - Car Selection --*/
+
+.tree_cols {
+    margin: 12px 0 0px 0;
+    padding: 0 0 16px 0;
+}
+
+/*-- /Section 4 - Car Selection --*/
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1991,6 +2632,26 @@ h1 {
 }
 
 /*-- /Section 11 - Main Page --*/
+
+/*-- Section 6 - Car Selection --*/
+
+.sect_6_c_s {
+    padding: 24px 0 16px 0;
+}
+
+.select_slide_thumb .img_box {
+    height: 240px;
+}
+
+/*-- /Section 6 - Car Selection --*/
+
+/*-- Section 8 - Car Selection --*/
+
+.sect_8_c_s {
+    padding-bottom: 41px;
+}
+
+/*-- /Section 8 - Car Selection --*/
 	
 }
 
@@ -2003,6 +2664,18 @@ h1 {
 }
 
 /*-- /Section 11 - Main Page --*/
+
+/*-- Section 8 - Car Selection --*/
+
+.sect_8_c_s {
+    padding-bottom: 7px;
+}
+
+.sect_8_c_s .h2_wrapp {
+	padding-top: 0;
+}
+
+/*-- /Section 8 - Car Selection --*/
 
 }
 
@@ -2077,6 +2750,23 @@ h1 {
 }
 
 /*-- /Section 1 - Service Single --*/
+
+/*-- Section 5 - Car Selection --*/
+
+.serices_box {
+    padding: 5px 20px 20px 20px;
+}
+
+.services_thumbs {
+    margin: 0;
+}
+
+.service_thumb {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/*-- /Section 5 - Car Selection --*/
 
 /*-- Footer --*/
 
@@ -2244,6 +2934,26 @@ h2 {
 }
 
 /*-- /Section 1 - Politic --*/
+
+/*-- Section 1 - Car Selection --*/
+
+.promo_two_cols_2 {
+    padding-bottom: 0;
+}
+
+.promo_two_cols_2 .blue_pill {
+    margin: 55px 0 20px 0;
+}
+
+.promo_two_cols_2 .promo_img {
+    margin: -31px 0 0 -97px;
+}
+
+.promo_img_2 {
+    width: 539px;
+}
+
+/*-- /Section 1 - Car Selection --*/
 
 }
 

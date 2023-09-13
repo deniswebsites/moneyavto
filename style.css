@@ -231,7 +231,7 @@ textarea:focus {
 
 .row {
     max-width: 1266px;
-    min-width: 350px;
+    min-width: 320px;
     margin: 0 auto;
     padding: 0 25px;
 }
@@ -2964,14 +2964,6 @@ textarea:focus {
     padding: 61px 0 79px 0;
 }
 
-.h2_wrapp.blue {
-
-}
-
-.h2_wrapp.blue h2 {
-
-}
-
 .h2_wrapp.blue h2 span {
     color: #8EBBFF;
 }
@@ -2997,6 +2989,7 @@ textarea:focus {
     background: #222327;
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .article_two_cols_2_2 .img_box:before {
@@ -3153,6 +3146,7 @@ textarea:focus {
 
 .tree_cols > div:nth-child(2) {
     width: 412px;
+    display: flex;
 }
 
 .tree_cols > div:nth-child(3) {
@@ -3161,10 +3155,12 @@ textarea:focus {
 }
 
 .car_img_box {
-    height: 811px;
+    height: 96%;
+    flex: 1;
     background: #222327;
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .car_img_box:before {
