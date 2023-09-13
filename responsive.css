@@ -547,6 +547,15 @@ h2 {
 	padding: 0;
 }
 
+.politic_item ul li {
+    margin: 7px 0;
+    font-size: 16px;
+}
+
+.politic_item ul li:before {
+    top: 9px;
+}
+
 /*-- /Section 1 - Politic --*/
 
 /*-- Footer --*/
