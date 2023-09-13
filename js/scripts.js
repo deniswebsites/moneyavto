@@ -38,22 +38,32 @@ $(document).ready(function() {
             slidesToShow: 4,
             slidesToScroll: 1,
             // fade: true,
-            // responsive: [
-            //     {
-            //       breakpoint: 900,
-            //       settings: {
-            //         slidesToShow: 2,
-            //         slidesToScroll: 2
-            //       }
-            //     },
-            //     {
-            //       breakpoint: 540,
-            //       settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1
-            //       }
-            //     }
-            //   ]
+            responsive: [
+                {
+                  breakpoint: 980,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    arrows: true
+                  }
+                },
+                {
+                  breakpoint: 700,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 500,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
+                  }
+                }
+              ]
         });
     }
 
@@ -67,22 +77,31 @@ $(document).ready(function() {
             slidesToShow: 3,
             slidesToScroll: 1,
             // fade: true,
-            // responsive: [
-            //     {
-            //       breakpoint: 900,
-            //       settings: {
-            //         slidesToShow: 2,
-            //         slidesToScroll: 2
-            //       }
-            //     },
-            //     {
-            //       breakpoint: 540,
-            //       settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1
-            //       }
-            //     }
-            //   ]
+            responsive: [
+                {
+                  breakpoint: 950,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 470,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
+                  }
+                }
+              ]
         });
     }
 
@@ -311,6 +330,56 @@ $(document).ready(function() {
             $("[data-popup]").fadeOut(300);
         }
       }
+    });
+
+    // -------------
+
+      $(".respmenubtn").click(function(e) {
+        e.preventDefault();
+        if( $("#resp_nav").is(":hidden") ) {
+            $("#resp_nav").fadeIn(300);
+            $(this).addClass("active");
+            div = document.createElement('div');
+            div.style.overflowY = 'scroll';
+            div.style.width = '50px';
+            div.style.height = '50px';
+            div.style.visibility = 'hidden';
+            document.body.appendChild(div);
+            scrollWidth = div.offsetWidth - div.clientWidth;
+            document.body.removeChild(div);
+            topCoord = $(document).scrollTop();
+            $("body").addClass("fixed");
+            $("body").css({
+                "top" :  -1 * topCoord + "px",
+                "padding-right" : scrollWidth + "px"
+            });
+        } else {
+            $("#resp_nav").fadeOut(300);
+            $(this).removeClass("active");
+            curTop = $("body").css("top");
+            curTop = Math.abs(parseInt(curTop, 10));
+            $("body").removeClass("fixed");
+            if (curTop !== 0) {
+                $("html").scrollTop(curTop);
+            }
+            $("body").attr("style", "");
+        }
+    });
+    
+    $(this).keydown(function(eventObject){
+        if (eventObject.which == 27 &&
+            $("#resp_nav").is(":visible") &&
+            bodyWidth <= 767) {
+            $("#resp_nav").fadeOut(300);
+            $(".respmenubtn").removeClass("active");
+            curTop = $("body").css("top");
+            curTop = Math.abs(parseInt(curTop, 10));
+            $("body").removeClass("fixed");
+            if (curTop !== 0) {
+                $("html").scrollTop(curTop);
+            }
+            $("body").attr("style", "");
+        }
     });
 
 });
