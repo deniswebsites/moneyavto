@@ -258,22 +258,31 @@ $(document).ready(function() {
             prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><img src="img/left_orange_arrow.svg" alt="" /></button>',
             nextArrow: '<button class="slick-next" aria-label="Next" type="button"><img src="img/right_orange_arrow.svg" alt="" /></button>',
             // fade: true,
-            // responsive: [
-            //     {
-            //       breakpoint: 900,
-            //       settings: {
-            //         slidesToShow: 2,
-            //         slidesToScroll: 2
-            //       }
-            //     },
-            //     {
-            //       breakpoint: 540,
-            //       settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1
-            //       }
-            //     }
-            //   ]
+            responsive: [
+                {
+                  breakpoint: 950,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2
+                  }
+                },
+                {
+                  breakpoint: 700,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 400,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
+                  }
+                }
+              ]
         });
       }
 
