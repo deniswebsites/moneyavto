@@ -209,22 +209,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -369,62 +353,6 @@ textarea:focus {
 }
 
 /*-- /Slick --*/
-
-/*-- Breadcrumbs --*/
-
-/*.breadcrumbs_wrapp {
-    padding: 40px 0 20px 0;
-}
-
-.breadcrumbs li {
-    display: inline-block;
-    vertical-align: top;
-    padding: 0 5px;
-}
-
-.breadcrumbs li:after {
-    position: relative;
-    top: -2px;
-    left: 5px;
-    content: "\2192";
-    font-size: 13px;
-    line-height: 23px;
-    color: #333333;
-}
-
-.breadcrumbs li:last-child:after {
-    display: none;
-}
-
-.breadcrumbs li a {
-    border-bottom: 1px solid transparent;
-    font-size: 18px;
-    line-height: 23px;
-    color: #333333;
-}
-
-.breadcrumbs li a:link,
-.breadcrumbs li a:visited {
-    border-bottom: 1px solid transparent;
-}
-
-.breadcrumbs li a:active,
-.breadcrumbs li a.active {
-    border-bottom: 1px solid #333333;
-}
-
-.breadcrumbs li a:hover {
-    border-bottom: 1px solid #333333;
-}
-
-.breadcrumbs li:last-child a {
-    pointer-events: none;
-    cursor: default;
-    opacity: .6;
-    border-bottom: 1px solid transparent;
-}*/
-
-/*-- /Breadcrumbs --*/
 
 .wrapper {
     padding-top: 100px;
@@ -2098,10 +2026,6 @@ textarea:focus {
     padding-bottom: 10px;
 }
 
-.h2_wrapp_descript {
-
-}
-
 .h2_wrapp_descript p {
     font-weight: 500;
     font-size: 20px;
@@ -2113,10 +2037,6 @@ textarea:focus {
 .form_wrapp {
     max-width: 380px;
     margin: 48px auto 0 auto;
-}
-
-.input_wrapp {
-
 }
 
 .form_wrapp .input_wrapp {
@@ -2163,10 +2083,6 @@ textarea:focus {
 
 .input_wrapp input:focus {
     border: 1px solid #fff;
-}
-
-.checkbox_wrapp {
-
 }
 
 .form_wrapp .checkbox_wrapp {
@@ -2469,10 +2385,6 @@ textarea:focus {
     padding: 20px 0 20px 0;
 }
 
-.blog_title_wrapp .shape {
-
-}
-
 .blog_title_wrapp > .row {
     position: relative;
     z-index: 2;
@@ -2614,7 +2526,7 @@ textarea:focus {
     background: #151516;
     border-radius: 10px;
     margin: 20px 0 20px 0;
-    padding: 30px 0 29px 0;
+    padding: 30px 20px 29px 20px;
 }
 
 .row_2 {
@@ -3501,10 +3413,6 @@ textarea:focus {
 
 /*-- Section 1 - China Avto Page --*/
 
-.promo_two_cols_3 {
-
-}
-
 .promo_two_cols_3 > div:nth-child(1) {
     width: 500px;
 }
@@ -3577,20 +3485,8 @@ textarea:focus {
 
 /*-- Section 2 - China Avto Page --*/
 
-.h2_wrapp.orange {
-
-}
-
-.h2_wrapp.orange h2 {
-
-}
-
 .h2_wrapp.orange h2 span {
     color: #FFD28E;
-}
-
-.article_two_cols_2_3 {
-
 }
 
 .article_two_cols_2_3 .img_box {
@@ -3967,6 +3863,7 @@ body.fixed {
     z-index: 19;
 }
 .popup_content {
+    width: 96%;
     max-width: 375px;
     background: #222327;
     border-radius: 10px;

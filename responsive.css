@@ -735,6 +735,53 @@ h2 {
 
 /*-- /Section 1 - China Avto Page --*/
 
+/*-- Section 1 - Blog --*/
+
+.blog_title_wrapp .shape {
+	display: block;
+}
+
+.blog_title h1 {
+	font-size: 44px;
+}
+
+.articles_miniatures {
+    padding: 52px 0 21px 0;
+}
+
+.article_miniature {
+    margin: 30px 0;
+}
+
+.article_miniature_title h3 {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.article_miniature_content {
+    padding: 12px 25px 26px 25px;
+}
+
+
+.article_miniature_content p {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*-- /Section 1 - Blog --*/
+
+/*-- Section 1 - Blog Page --*/
+
+.blog_page_title h1 {
+    font-size: 36px;
+}
+
+.blog_page_content p {
+    font-size: 16px;
+}
+
+/*-- /Section 1 - Blog Page --*/
+
 /*-- Footer --*/
 
 .footer_templ {
@@ -903,6 +950,19 @@ p.corp {
 }
 
 /*-- /Section 5 - Car Selection --*/
+
+/*-- Section 1 - Callback --*/
+
+.callback_box_3 {
+    margin-bottom: 20px;
+    padding: 10px 20px 5px 20px;
+}
+
+.callback_box_3 .submit_wrapp {
+    padding: 23px 0 15px 0;
+}
+
+/*-- /Section 1 - Callback --*/
 
 }
 
@@ -1702,8 +1762,74 @@ h1 {
 
 /*-- /Section 3 - Car Selection --*/
 
+/*-- Section 1 - Callback --*/
+
+.h1_wrapp_inner {
+    padding: 42px 0 33px 0;
 }
 
+/*-- /Section 1 - Callback --*/
+
+/*-- Section 1 - Blog --*/
+
+.shape_5 {
+    width: 281px;
+    height: 130px;
+    background-image: url(img/shape_5_resp.svg);
+}
+
+.shape_6 {
+    width: 182px;
+    height: 150px;
+    background-image: url(img/shape_6_resp.svg);
+}
+
+.articles_miniatures {
+    padding: 31px 0 30px 0;
+}
+
+.article_miniature {
+    margin: 20px 0;
+}
+
+.article_miniature_title {
+    padding: 28px 20px 25px 20px;
+}
+
+.article_miniature_title h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.article_miniature_content {
+    padding: 1px 20px 16px 20px;
+}
+
+/*-- /Section 1 - Blog --*/
+
+/*-- Popups --*/
+
+.popup_title h3 {
+    padding: 7px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form_wrapp.popup_form {
+    margin: 19px auto 0 auto;
+}
+
+.popup_form .submit_wrapp {
+    padding: 29px 0 16px 0;
+}
+
+.form_wrapp .input_wrapp {
+    margin: 16px 0;
+}
+
+/*-- /Popups --*/
+
+}
 
 @media only screen and (max-width: 750px) {
 
@@ -2291,6 +2417,63 @@ h2 {
 
 /*-- /Section 4 - China Avto Page --*/
 
+/*-- Section 1 - Callback --*/
+
+.h1_wrapp_inner {
+    padding: 32px 0 29px 0;
+}
+
+.h1_wrapp_inner h1 {
+    font-size: 32px;
+}
+
+.two_cols_3 > div:nth-child(odd) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.two_cols_3 > div:nth-child(even) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.two_cols_4 > div:nth-child(odd) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.two_cols_4 > div:nth-child(even) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.two_cols_4 > div:nth-child(even) > img {
+	display: block;
+	margin: 0 auto;
+}
+
+/*-- /Section 1 - Callback --*/
+
+/*-- Section 1 - Blog --*/
+
+.blog_title h1 {
+    font-size: 32px;
+}
+
+.shape_5 {
+    width: 260px;
+    height: 105px;
+    background-image: url(img/shape_5_2_resp.svg);
+}
+
+.shape_6 {
+    width: 169px;
+    height: 136px;
+    background-image: url(img/shape_6_2_resp.svg);
+}
+
+/*-- /Section 1 - Blog --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -2695,6 +2878,64 @@ h1 {
 
 /*-- /Section 1 - China Avto Page --*/
 
+/*-- Section 1 - Blog --*/
+
+.article_miniature_title {
+    padding: 16px 20px 16px 20px;
+}
+
+.article_miniature_content {
+    border: 2px solid #222327;
+}
+
+.article_miniature_title h3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.article_miniature_content p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*-- /Section 1 - Blog --*/
+
+/*-- Section 1 - Blog Page --*/
+
+.blog_page_title h1 {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.blog_page_content {
+    padding: 21px 0 42px 0;
+}
+
+.blog_page_content p {
+	padding: 9px 0;
+	font-size: 14px;
+}
+
+/*-- /Section 1 - Blog Page --*/
+
+/*-- Popups --*/
+
+.popup_title h3 {
+    padding: 5px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.popup_title p {
+    padding: 5px 0;
+}
+
+.form_wrapp .input_wrapp {
+    margin: 10px 0;
+}
+
+/*-- /Popups --*/
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -2846,6 +3087,38 @@ h1 {
 }
 
 /*-- /Section 5 - Car Selection --*/
+
+/*-- Section 1 - Callback --*/
+
+.h1_wrapp_inner h1 {
+	font-weight: 600;
+    font-size: 25px;
+}
+
+.callback_box_3 {
+	margin: 0 -20px 20px -20px;
+}
+
+/*-- /Section 1 - Callback --*/
+
+/*-- Section 1 - Blog --*/
+
+.blog_title h1 {
+	font-weight: 700;
+    font-size: 28px;
+}
+
+.shape_5 {
+    width: 181px;
+    height: 65px;
+}
+
+.shape_6 {
+    width: 124px;
+    height: 90px;
+}
+
+/*-- /Section 1 - Blog --*/
 
 /*-- Footer --*/
 
@@ -3054,6 +3327,39 @@ h2 {
 }
 
 /*-- /Section 1 - China Avto Page --*/
+
+/*-- Section 1 - Blog --*/
+
+.articles_miniatures {
+    padding: 15px 0 11px 0;
+}
+
+/*-- /Section 1 - Blog --*/
+
+/*-- Section 1 - Blog Page --*/
+
+.blog_page_title h1 {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.blog_page_content {
+    padding: 11px 0 21px 0;
+}
+
+/*-- /Section 1 - Blog Page --*/
+
+/*-- Popups --*/
+
+.form_wrapp.popup_form {
+    margin: 9px auto 0 auto;
+}
+
+.popup_form .submit_wrapp {
+    padding: 18px 0 16px 0;
+}
+
+/*-- /Popups --*/
 
 }
 
