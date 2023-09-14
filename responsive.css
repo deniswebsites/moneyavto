@@ -707,6 +707,34 @@ h2 {
 
 /*-- /Section 6 - Car Selection --*/
 
+/*-- Section 1 - China Avto Page --*/
+
+.promo_two_cols_3 {
+    padding-bottom: 0;
+}
+
+.promo_two_cols_3 .orange_pill {
+    margin: 93px 0 30px 0;
+}
+
+.promo_two_cols > div:nth-child(1) {
+    width: 475px;
+}
+
+.promo_two_cols > div:nth-child(2) {
+    width: calc(100% - 475px);
+}
+
+.promo_img.promo_img_3 {
+    width: 614px;
+}
+
+.promo_two_cols_3 .promo_img.promo_img_3 {
+    margin: -58px 0 0 -158px;
+}
+
+/*-- /Section 1 - China Avto Page --*/
+
 /*-- Footer --*/
 
 .footer_templ {
@@ -1236,6 +1264,34 @@ h1 {
 }
 
 /*-- /Section 6 - Car Selection --*/
+
+/*-- Section 1 - China Avto Page --*/
+
+.promo_two_cols_3 .promo_img.promo_img_3 {
+    margin: -96px 0 0 -201px;
+}
+
+.promo_img.promo_img_3 {
+    width: 718px;
+}
+
+.promo_two_cols > div:nth-child(1) {
+    width: 465px;
+}
+
+.promo_two_cols > div:nth-child(2) {
+    width: calc(100% - 465px);
+}
+
+.orange_pill {
+    padding: 10px 20px;
+    min-width: 202px;
+    min-height: 48px;
+    font-size: 16px;
+}
+
+/*-- /Section 1 - China Avto Page --*/
+
 
 /*-- Footer --*/
 
@@ -2227,6 +2283,14 @@ h2 {
 
 /*-- /Section 6 - Car Selection --*/
 
+/*-- Section 4 - China Avto Page --*/
+
+.popular_slider_wrapp {
+    padding: 8px 0 10px 0;
+}
+
+/*-- /Section 4 - China Avto Page --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -2242,7 +2306,6 @@ h1 {
 .visible_600 {
 	display: block;
 }
-
 
 /*-- Section 1 - Main Page --*/
 
@@ -2616,6 +2679,22 @@ h1 {
 
 /*-- /Section 4 - Car Selection --*/
 
+/*-- Section 1 - China Avto Page --*/
+
+.promo_two_cols_3 .orange_pill {
+    margin: 63px 0 30px 0;
+}
+
+.promo_img.promo_img_3 {
+    width: 489px;
+}
+
+.promo_two_cols_3 .promo_img.promo_img_3 {
+    margin: -95px 0 0 -85px;
+}
+
+/*-- /Section 1 - China Avto Page --*/
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -2954,6 +3033,27 @@ h2 {
 }
 
 /*-- /Section 1 - Car Selection --*/
+
+/*-- Section 1 - China Avto Page --*/
+
+.promo_two_cols_3 > div:nth-child(1) {
+    width: 100%;
+}
+
+.promo_two_cols_3 > div:nth-child(2) {
+    width: 0;
+}
+
+.promo_two_cols_3 .orange_pill {
+    margin: 47px 0 11px 0;
+}
+
+.promo_two_cols_3 .promo_img.promo_img_3 {
+    width: 354px;
+    margin: -71px 0 0 -105px;
+}
+
+/*-- /Section 1 - China Avto Page --*/
 
 }
 

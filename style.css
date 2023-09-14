@@ -893,6 +893,13 @@ textarea:focus {
     transform: rotate(-45deg);
 }
 
+.respmenubtn.orange span {
+    background: #FFD28E;
+}
+.respmenubtn.active.orange span {
+    background: #FFD28E;
+}
+
 /* ----- / Responsive Menu Button ------ */
 
 /*-------------------------------------------*/
@@ -3623,7 +3630,9 @@ textarea:focus {
 }
 
 .popular_thumb {
-    width: 289px;
+    max-width: 289px;
+    width: 100%;
+    margin: 0 auto;
     min-height: 281px;
     background: #222327;
     border-radius: 10px;
