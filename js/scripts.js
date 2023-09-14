@@ -383,6 +383,68 @@ $(document).ready(function() {
         }
     });
 
+    // ---------------
+
+    $(".search_dr_title").on("click", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".search_dr_wrapp");
+      z = parent.closest(".z_index");
+      if(!parent.hasClass("active")) {
+        if(parent.closest(".search_dr_wrapp.active").length == 0) {
+          $(".search_dr_wrapp").removeClass("active");
+          $(".z_index").removeClass("active");
+        }
+        parent.addClass("active");
+        z.addClass("active");
+      } else {
+        parent.removeClass("active");
+        z.removeClass("active");
+      }
+    });
+
+    $(".search_dr_title input").on("keyup", function() {
+        input = $(this);
+        filter = this.value.toUpperCase();
+        parent = input.closest(".search_dr_wrapp");
+        ul = parent.find("ul");
+        li = ul.find("li");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    });
+
+    $(".search_dr_content ul a").on("click", function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".search_dr_wrapp");
+        z = parent.closest(".z_index");
+        input = parent.find("input");
+        input.val($(this).text());
+        parent.removeClass("active");
+        z.removeClass("active");
+    });
+
+    $(this).keydown(function(eventObject){
+      if (eventObject.which == 27) {
+        $(".search_dr_wrapp").removeClass("active");
+        $(".z_index").removeClass("active");
+      }
+    });
+
+    $(document).mouseup(function(e) {
+      hide_element = $(".search_dr_wrapp");
+      if (!hide_element.is(e.target)
+          && hide_element.has(e.target).length === 0) {
+            hide_element.closest(".z_index").removeClass("active");
+            hide_element.removeClass("active");
+        }
+    });
+
 });
 
 });
